@@ -1,7 +1,7 @@
 import { useState, useCallback } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/contacts";
+const API_URL = "https://contact-manager-xb8v.onrender.com/api/contacts";
 
 export const useContacts = () => {
   const [contacts, setContacts] = useState([]);
